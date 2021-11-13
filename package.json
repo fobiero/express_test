@@ -1,20 +1,20 @@
 {
-  "name": "express_pro_1",
-  "version": "1.0.0",
-  "description": "express essential training ",
-  "main": "index.js",
-  "scripts": {
-    "start": "nodemon server.js"
-  },
-  "author": "fObiero",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.17.1",
-    "nodemon": "^2.0.15"
-  },
-  "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.7.0",
-    "babel-preset-stage-0": "^6.24.1"
-  }
+    "name": "express_pro_1",
+    "version": "1.0.0",
+    "description": "express essential training ",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon server.js"
+    },
+    "author": "fObiero",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.17.1",
+        "nodemon": "^2.0.15"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.26.0",
+        "babel-preset-env": "^1.7.0",
+        "babel-preset-stage-0": "^6.24.1"
+    }
 }

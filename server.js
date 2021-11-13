@@ -2,8 +2,19 @@ const express = require('express');
 const data = require('./data')
 const app = express();
 
+app.use(express.static('public'));
+app.use('/images', express.static('images'));
+
 app.get('/', (req, res) => {
-    res.send(data)
+        res.send(data)
+    })
+    // get user in the data 
+app.get('/item/:id', (req, res) => {
+    console.log(req.params.id);
+    let user = Number(req.params.id)
+        // console.log(user);
+        // console.log(data[user]);
+    res.send(data[user])
 })
 
 app.post('/newItem', (req, res) => {
