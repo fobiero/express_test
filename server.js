@@ -29,5 +29,6 @@ app.delete('/item', (req, res) => {
     res.send(`removed item on port ${PORT}`)
 })
 
-const PORT = 3000;
-app.listen(PORT, () => console.log(`Listening on port ${PORT}`));
+const PORT = 5000;
+// app.listen(PORT, () => console.log(`Listening on port ${PORT}`));
+app.listen(process.env.PORT || 5000);
